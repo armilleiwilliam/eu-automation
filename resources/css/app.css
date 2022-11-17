@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/** Login **/
+.ml-100 {
+    margin-left: 125px;
+    margin-top: -2px;
+}
+
+.shire-list {
+    max-height: 300px;
+    overflow: auto;
+    z-index: 1000;
+}
+
+.container-grid {
+    background-image: url("../images/2000x786.jpg");
+}
+
+.day-box {
+    border-right: 1px solid grey;
+}
+
+table td {
+    font-size: 13px;
+    padding: 2px;
+    text-align: center;
+}
+
+.row p {
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+    font-size: 12px;
+}
+
+table td p:first-child {
+    border-bottom: 1px solid;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.font-size-8 {
+    font-size:11px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
+.margin-spinner {
+    margin: 0 auto;
+    margin: 15% 47%;
+}
