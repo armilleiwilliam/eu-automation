@@ -37,8 +37,8 @@ right corner of the browser, then refresh the page
 - enjoy!!  :-)
 
 ### Testing with PhpUnit:
-- for testing on Laravel I have used “sqlite” and database “:memory:” (see phpunit.xml), so, there is no need to set any  
-  physical database because it uses the memory of your machine. But in order to have it working you need to have
+- for testing on Laravel I have used “sqlite” and database “:memory:” (see phpunit.xml), so, there is no need to set  
+  any physical database because it uses the memory of your machine. But in order to have it working you need to have
   php-sqlite3 installed, if you don’t have it run “sudo apt-get install php-sqlite3”, you might need to enable it on your
   php.ini. Otherwise, create a database for testing and add it to phpunit.xml file replacing ":memory:" line, then comment
   the DB_CONNECTION “sqlite” line.
