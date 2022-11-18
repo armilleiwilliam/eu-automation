@@ -46,3 +46,7 @@ right corner of the browser, then refresh the page
 - just run "pnp artisan test"
 - for lack of time I could not set a testing code for React part
 
+
+### THE PROJECT IS WORKING ON MY MACHINE, IN CASE YOU HAVE ANY ISSUE JUST LET ME KNOW. 
+(On the screenshots folder on the root of the project you can see how it looks on my machine)
+
