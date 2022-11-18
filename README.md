@@ -20,14 +20,14 @@ for counties, I was planning to do per city also but it was taking too long.
 - composer install (it will install both sail and breeze for authentication)
 - php artisan migrate (will install the basic authentication/registration tables)
 - npm install && npm run dev (this will install all dependencies and initiate vite)
-- then open another terminal window (to not interrupt vite closing the previous one) php artisan serve
+- then open another terminal window (do not interrupt "vite" closing the previous one) and run php artisan serve
 - click on http://127.0.0.1:8000/
 - probably you will be asked to generate the app key, click then on the related button "GENERATE APP KEY" to the top 
 right corner of the browser, then refresh the page
 
 ### Access
-- if the procedure above have been followed correctly you will be redirected to the Login page where you can click on "create account"
-- create an account 
+- if the procedure above have been followed correctly you will be redirected to the Login page
+- click on "create account" and then create your own profile 
 - once the account is created you will see the dashboard with the list of "shires" to select
 - once a shire is selected the container will be populated with a weekly weather forecast by county per day
 - enjoy!!  :-)
@@ -36,9 +36,9 @@ right corner of the browser, then refresh the page
 - for testing on Laravel I have used “sqlite” and database “:memory:” (see phpunit.xml), so, there is no need to set any  
   physical database because it uses the memory of your machine. But in order to have it working you need to have
   php-sqlite3 installed, if you don’t have it run “sudo apt-get install php-sqlite3”, you might need to enable it on your
-  php.ini. Otherwise create a database for testing and add it to phpunit.xml file replacing ":memory:" line, then comment
+  php.ini. Otherwise, create a database for testing and add it to phpunit.xml file replacing ":memory:" line, then comment
   the DB_CONNECTION “sqlite” line.
 - considering I have used Laravel backend mainly for login and registering the tests are based only on these two procedures
 - just run "pnp artisan test"
-- for lack of time I could not set a testing code for React
+- for lack of time I could not set a testing code for React part
 
