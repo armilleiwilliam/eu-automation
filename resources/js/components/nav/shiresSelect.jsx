@@ -157,7 +157,7 @@ export default function ShiresSelect() {
                                             <br/> Speed
                                             (Mph) {item.windSpeedMPH}
                                         </p>
-                                        <img src={"../images/weather_icons/" + item.icon}/>
+                                        <img src={"../images/weather_icons/" + item.icon} className="weather-icon" />
                                     </div>
                                 )}
                             </div>

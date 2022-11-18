@@ -54,7 +54,7 @@
             <div class="mt-4">
                 <x-input-label for="chosen_location" :value="__('Favourite location')" />
 
-                <x-text-input id="chosen_location" class="block mt-1 w-full" type="text" name="chosen_location" :value="old('chosen_location')" required />
+                <x-text-input id="chosen_location" class="block mt-1 w-full" type="text" name="chosen_location" :value="old('chosen_location')" />
 
                 <x-input-error :messages="$errors->get('chosen_location')" class="mt-2" />
             </div>

@@ -8,8 +8,6 @@ export default function WeatherFor() {
         <>
             <h1 className="text-center">Weather forecast by counties</h1>
             <ShireSelect />
-
-
         </>
     );
 }
