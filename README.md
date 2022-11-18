@@ -2,21 +2,25 @@
 Hi,
 how are you? For this type of project I have decided to have both Laravel and React on the same application, usually I 
 work having them on separate environments, like a RestFull Api where a React Website communicate with a Laravel Microservice
-using axios, but for this project I realised it was more practical to have them both together. 
-Firstly I apologize if probably I was not able to find all the icons related to weather conditions, I have tried my best 
-last night to get on internet as many as I could, cropping and resizing them with photoshop, but there were too many
+using axios, but for this project I realised it was more practical to have them both together. If you are interested to
+see how familiar I am in working with React and Laravel in two different applications check on my github account 
+(https://github.com/armilleiwilliam?tab=repositories) on the repositories volopa_front (React) and volopa_backend (Laravel), 
+it's project I have worked on recently which uses tokens (sanctum) for authentication. 
+
+Firstly I apologize if probably I was not able to find all the icons related to weather conditions (you will see what I mean when opening the project), 
+I have tried my best last night to get on internet as many as I could, cropping and resizing them with photoshop, but there were too many
 to find in such a little time, I have tried to cover most of conditions though.
 I really enjoyed this challenge :-)
 There are several things I have would have improved if I had more time though :-)
 I have tried to cover the most (or all) the requirements, even responsiveness, I have used both Tailwind and Bootstrap.
-The Api Weather I have chosen is https://www.aerisweather.com/, I have created an account which is free for a month,
+The Api Weather that I have chosen is https://www.aerisweather.com/, I have created an account which is free for a month,
 the credentials are already set in the project. Due to the lack of time I managed to retrieve weather conditions only
 for counties, I was planning to do per city also but it was taking too long. 
 
 
 ### Installation
-- git clone git@github.com:armilleiwilliam/eu-automation.git   (repository is public no need ssh key)
-- set DB connection on your env. file
+- git clone git@github.com:armilleiwilliam/eu-automation.git (repository is public no need ssh key)
+- set DB connection on your env. file after creating a database for this project
 - composer install (it will install both sail and breeze for authentication)
 - php artisan migrate (will install the basic authentication/registration tables)
 - npm install && npm run dev (this will install all dependencies and initiate vite)
