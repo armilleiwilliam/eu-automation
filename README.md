@@ -20,10 +20,14 @@ for counties, I was planning to do per city also but it was taking too long.
 - composer install (it will install both sail and breeze for authentication)
 - php artisan migrate (will install the basic authentication/registration tables)
 - npm install && npm run dev (this will install all dependencies and initiate vite)
-- php artisan serve
+- then open another terminal window (to not interrupt vite closing the previous one) php artisan serve
+- click on http://127.0.0.1:8000/
+- probably you will be asked to generate the app key, click then on the related button "GENERATE APP KEY" to the top 
+right corner of the browser, then refresh the page
 
 ### Access
-- when clicking on "http://127.0.0.1:8000/" you will be redirected to the Login page where you can click on "create account"
+- if the procedure above have been followed correctly you will be redirected to the Login page where you can click on "create account"
+- create an account 
 - once the account is created you will see the dashboard with the list of "shires" to select
 - once a shire is selected the container will be populated with a weekly weather forecast by county per day
 - enjoy!!  :-)
