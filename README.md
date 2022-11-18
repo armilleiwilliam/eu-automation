@@ -36,7 +36,7 @@ right corner of the browser, then refresh the page
 - once a shire is selected the container will be populated with a weekly weather forecast by county per day
 - enjoy!!  :-)
 
-## Testing with PhpUnit:
+### Testing with PhpUnit:
 - for testing on Laravel I have used “sqlite” and database “:memory:” (see phpunit.xml), so, there is no need to set any  
   physical database because it uses the memory of your machine. But in order to have it working you need to have
   php-sqlite3 installed, if you don’t have it run “sudo apt-get install php-sqlite3”, you might need to enable it on your
