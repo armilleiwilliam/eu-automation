@@ -9,6 +9,11 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
+/**
+ * Show the weekly forecast per selected county
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export default function ShiresSelect() {
     const [shireData, setShireData] = useState({
         periods: "",
